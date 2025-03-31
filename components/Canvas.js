@@ -24,7 +24,7 @@ const Canvas = () => {
         style={{ width: "100%", minHeight: 200, border: "2px dashed #ccc" }}
       >
         {/* <Text align="center">Drag & drop or click to upload media</Text> */}
-        <Text align="center">Drag & drop or click to upload Image OR Video.</Text>
+        <Text align="center">Drag & drop or click to upload Image OR Video under 5mb.</Text>
       </Dropzone>
 
       {media && (
